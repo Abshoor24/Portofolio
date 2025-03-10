@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styling.css">
+  <script>
+    tailwind.config  = {
+      fontFamily: {
+        inter : ['Inter', 'sans-serif'],
+      }
+    }
+
+  </script>
+  <title>Document</title>
+</head>
+<body class="bg-[#1E1E1E] max-h-5 over">
+  <nav class="bg-[#1E1E1E] font-mono">
+    <div class="container mx-auto flex justify-between p-8 text-[20px] text-gray-400">
+      <div class="flex justify-center space-x-8  ml-[150px]">
+        <div class="w-5 h-5 bg-red-600 rounded-full"></div>
+        <div class="w-5 h-5 bg-yellow-500 rounded-full"></div>
+        <div class="w-5 h-5 bg-green-600 rounded-full"></div>
+      </div>
+  <ul class="flex space-x-8 mr-[350px]">
+    <li>
+      <a href="index.html" class="hover:text-purple-900 hover:underline duration-500 inline-block hover:-translate-y-2 transition ease-out">Home</a>
+    </li>
+    <li>
+      <a href="about.html" class="hover:text-purple-900 hover:underline duration-500 inline-block hover:-translate-y-2 transition ease-out">About</a>
+    </li>
+    <li>
+      <a href="project.html" class="hover:text-purple-900 hover:underline duration-500 inline-block hover:-translate-y-2 transition ease-out">Project</a>
+    </li>
+    <li>
+      <a href="contact.php" class="hover:text-purple-900 hover:underline duration-500 inline-block hover:-translate-y-2 transition ease-out">Contact</a>
+    </li>
+  </ul>
+  
+     </div>
+  </nav>
+
+
+<div class="flex items-center justify-center mt-6">
+    <p class="text-center text-3xl font-bold text-blue-600">Past Project Experience</p>
+  </div>
+
+  <div class="grid grid-cols-1 xl:grid-cols-3 gap-6 px-4 py-3 mx-auto justify-items-center mt-10">
+    <!-- Card 1 -->
+    <div class="w-[400px] bg-[#282828] rounded-xl p-5 shadow-lg project-card">
+        <img src="porto.png" alt="Project Image" class="w-full rounded-lg">
+        <h3 class="text-lg font-bold text-white mt-3">Personal Website</h3>
+        <p class="text-gray-400 text-sm mt-1">
+            My personal website, I created this website to display my profile, skills, and projects. 
+            As well as my place to try new technology.
+        </p>
+        <p class="text-yellow-400 font-semibold text-sm mt-3">JS, Tailwind</p>
+        <div class="flex justify-between items-center mt-4 text-gray-500">
+          
+        </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="w-[400px] bg-[#282828] rounded-xl p-5 shadow-lg project-card">
+        <img src="Greencyle.png" alt="Project Image" class="w-full rounded-lg">
+        <h3 class="text-lg font-bold text-white mt-3">GreenCycle</h3>
+        <p class="text-gray-400 text-sm mt-1">
+          I created the GreenCycle application for a programming competition with my friend,
+          and this is my first competition that made it to the finals with my friend.
+        </p>
+        <p class="text-yellow-400 font-semibold text-sm mt-3">React, Tailwind</p>
+        <div class="flex justify-between items-center mt-4 text-gray-500">
+           
+        </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="w-[400px] bg-[#282828] rounded-xl p-5 shadow-lg project-card">
+        <img src="minerva.png" alt="Project Image" class="w-full rounded-lg">
+        <h3 class="text-lg font-bold text-white mt-3">MINERVAAA.com</h3>
+        <p class="text-gray-400 text-sm mt-1">
+          This is a simple bookstore website. I created this website for my school assignment with my friend, and this is my first website.
+        </p>
+        <p class="text-yellow-400 font-semibold text-sm mt-3">HTML, CSS</p>
+        <div class="flex justify-between items-center mt-4 text-gray-500">
+           
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script src="project.js"></script>
+</body>
+</html>

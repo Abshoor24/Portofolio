@@ -1,0 +1,4 @@
+a:hover i {
+  transform: translateY(-10px);
+  transition: 0.2s ease;
+}

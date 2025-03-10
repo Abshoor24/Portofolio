@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styling.css">
+  <script>
+    tailwind.config  = {
+      fontFamily: {
+        inter : ['Inter', 'sans-serif'],
+      }
+    }
+
+  </script>
+  <title>Document</title>
+</head>
+<body class="bg-[#1E1E1E] font-mono max-h-5 overflow-hidden">
+<nav class="bg-[#1E1E1E]">
+  <div class="container mx-auto flex justify-between p-8 text-[20px] text-gray-400">
+    <div class="flex justify-center space-x-8  ml-[150px]">
+      <div class="w-5 h-5 bg-red-600 rounded-full"></div>
+      <div class="w-5 h-5 bg-yellow-500 rounded-full"></div>
+      <div class="w-5 h-5 bg-green-600 rounded-full"></div>
+    </div>
+    <ul class="flex space-x-8 mr-[350px]">
+      <li>
+        <a href="index.html" class="hover:text-purple-900 hover:underline duration-500 inline-block hover:-translate-y-2 transition ease-out">Home</a>
+      </li>
+      <li>
+        <a href="about.html" class="hover:text-purple-900 hover:underline duration-500 inline-block hover:-translate-y-2 transition ease-out">About</a>
+      </li>
+      <li>
+        <a href="project.html" class="hover:text-purple-900 hover:underline duration-500 inline-block hover:-translate-y-2 transition ease-out">Project</a>
+      </li>
+      <li>
+        <a href="contact.php" class="hover:text-purple-900 hover:underline duration-500 inline-block hover:-translate-y-2 transition ease-out">Contact</a>
+      </li>
+    </ul>
+    
+   </div>
+</nav>
+
+<section class="h-screen flex items-center justify-center">
+
+  <!-- image -->
+  <div class="">
+    <img src="shorss.jpg" alt="gambar" class="w-[400px] h-[400px] rounded-full"></div>
+  <div class="ml-20 mb-[70px] text-2xl">
+    <span class="text-green-600">// User data</span>
+    <br>
+    <br>
+    <span class="text-yellow-200">{</span>
+    <br>
+    <span class="text-red-600 ml-10">name:</span><span class="text-yellow-600"> "Muhammad Nurul Abshoor"</span>
+    <br>
+    <span class="text-red-600 ml-10">age:</span><span class="text-yellow-600"> "15"</span>
+    <br>
+    <span class="text-red-600 ml-10">focus:</span><span class="text-yellow-600"> "Fullstack Developoer"</span>
+    <br>
+    <span class="text-yellow-200">}</span>
+
+  </div>
+
+</section>
+</body>
+</html>
